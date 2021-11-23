@@ -9,7 +9,7 @@ function Register() {
                         <div className="col-lg-6">
                             <div className="text-container">
                                 <h2>Register Using The Form</h2>
-                                <p>It's easy to register for the course, just fill out the form and click submit. Then you will be registered for one of the best SEO training courses in the industry</p>
+                                <p>It's easy to register for the course, just fill out the form and click submit. Then you wil be on your way of registering for one of the best Machine Learning and Data Analytics Course in the industry</p>
                                 <ul className="list-unstyled li-space-lg">
                                     <li className="media">
                                         <i className="fas fa-square"></i>

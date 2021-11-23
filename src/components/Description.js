@@ -7,7 +7,7 @@ function Description() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <h2>What Will You Learn In Our SEO Focused Training Course</h2>
+                            <h2>What Will You Learn In Our Data Analytical and Machine Learning Workshops</h2>
                         </div> 
                     </div>
                     <div className="row">

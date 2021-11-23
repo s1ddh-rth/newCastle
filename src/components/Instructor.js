@@ -7,13 +7,13 @@ function Instructor() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <img className="img-fluid" src="images/instructor.jpg" alt="alternative" />
+                            <img className="img-fluid" src="images/instructor.jfif" alt="alternative" />
                         </div> 
                         <div className="col-lg-6">
                             <div className="text-container">
-                                <h2>I’m Garry Your Trainer</h2>
-                                <p>Hi everybody! I am Garry and I will be your main instructor durnig the SEO training course. I have more than 10 years experience in SEO and I am very passionate about this field. Register for the course and let's meet.</p>
-                                <p>Teaching students all about the beste SEO techniques is something I love to do as a full-time job</p>
+                                <h2>I’m Harry Your Trainer</h2>
+                                <p>Hi everybody! I am Harry Patria, CEO & Chief Data Strategist at Patria & Co. I have more than 10 years experience in Data Science and I am very passionate about this field. Register for the course and let's meet.</p>
+                                <p></p>
                             </div> 
                         </div> 
                     </div> 
