@@ -32,18 +32,15 @@ function Register() {
                             <div className="form-container">
                                 <form id="registrationForm" data-toggle="validator" data-focus="false">
                                     <div className="form-group">
-                                        <input type="text" className="form-control-input" id="rname" name="rname" required />
-                                        <label className="label-control" htmlFor="rname">Complete name</label>
+                                        <input type="text" className="form-control-input" id="rname" name="rname" placeholder="Complete name" required />
                                         <div className="help-block with-errors"></div>
                                     </div>
                                     <div className="form-group">
-                                        <input type="email" className="form-control-input" id="remail" name="remail" required />
-                                        <label className="label-control" htmlFor="remail">Email address</label>
+                                        <input type="email" className="form-control-input" id="remail" name="remail" required placeholder="Email Address"/>
                                         <div className="help-block with-errors"></div>
                                     </div>
                                     <div className="form-group">
-                                        <input type="text" className="form-control-input" id="rphone" name="rphone" required />
-                                        <label className="label-control" htmlFor="rphone">Phone number</label>
+                                        <input type="text" className="form-control-input" id="rphone" name="rphone" placeholder="Phone number" required />
                                         <div className="help-block with-errors"></div>
                                     </div>
                                     <div className="form-group checkbox">

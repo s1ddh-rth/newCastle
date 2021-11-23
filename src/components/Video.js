@@ -12,7 +12,7 @@ function Video() {
                         
                             <div className="image-container">
                                 <div className="video-wrapper">
-                                    <a className="popup-youtube" href="https://www.youtube.com/watch?v=fLCjQJCekTs" data-effect="fadeIn">
+                                    <a className="popup-youtube" href="https://www.youtube.com/watch?v=iBj9PWk1noA&t=22s" data-effect="fadeIn">
                                         <img className="img-fluid" src="images/video.jpg" alt="alternative" />
                                         <span className="video-play-button">
                                             <span></span>

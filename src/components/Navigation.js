@@ -44,7 +44,7 @@ function Navigation() {
                             <a className="nav-link page-scroll" href="#contact">CONTACT</a>
                         </li>
                     </ul>
-                    <span className="nav-item social-icons">
+                    {/* <span className="nav-item social-icons">
                         <span className="fa-stack">
                             <a href="#your-link">
                                 <i className="fas fa-circle fa-stack-2x"></i>
@@ -57,7 +57,7 @@ function Navigation() {
                                 <i className="fab fa-twitter fa-stack-1x"></i>
                             </a>
                         </span>
-                    </span>
+                    </span> */}
                 </div>
             </nav> 
         </div>

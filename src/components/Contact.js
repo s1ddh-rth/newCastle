@@ -10,20 +10,16 @@ function Contact() {
                             <div className="text-container">
                                 <h2>Contact Details</h2>
                                 <p>For registration questions please get in touch using the contact details below. For any questions use the form.</p>
-                                <h3>Main Office Location</h3>
+                                
                                 <ul className="list-unstyled li-space-lg">
-                                    <li className="media">
-                                        <i className="fas fa-map-marker-alt"></i>
-                                        <div className="media-body">22 Innovative, San Francisco, CA 94043, US</div>
-                                    </li>
                                     <li className="media">
                                         <i className="fas fa-mobile-alt"></i>
                                         <div className="media-body">+44 68 554 332, &nbsp;&nbsp;<i className="fas fa-mobile-alt"></i>&nbsp; +44 31 276 112</div>
                                     </li>
-                                    <li className="media">
+                                    {/* <li className="media">
                                         <i className="fas fa-envelope"></i>
                                         <div className="media-body"><a className="light-gray" href="mailto:contact@zigo.com">contact@zigo.com</a> <i className="fas fa-globe"></i><a className="light-gray" href="#your-link">www.zigo.com</a></div>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div> 
                         </div> 

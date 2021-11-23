@@ -13,7 +13,8 @@ function ImageCarousel() {
                                     <span id="clock"></span>
                                 </div>
                                 <h1>Re-inventing business through predictive analytics</h1>
-                                <p className="p-large">Do you feel like you're doing a lot of guess work when it comes to SEO for your website? Take the SEO training course to change that</p>
+                                <p className="p-large">War is 90% information.<br />
+                                Here at Patria & Co. we work with you to help you realise your full potential.<br /> Come Be A Part Of Something Awesome.</p>
                                 <a className="btn-solid-lg page-scroll" href="#register">REGISTER</a>
                                 <a className="btn-outline-lg page-scroll" href="#instructor">DISCOVER</a>
                             </div> 

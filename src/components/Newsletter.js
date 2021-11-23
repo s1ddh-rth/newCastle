@@ -13,8 +13,7 @@ function Newsletter() {
                     
                     <form id="newsletterForm" data-toggle="validator" data-focus="false">
                         <div className="form-group">
-                            <input type="email" className="form-control-input" id="nemail" required />
-                            <label className="label-control" htmlFor="nemail">Email</label>
+                            <input type="email" className="form-control-input" id="nemail" placeholder="Email" required />
                             <div className="help-block with-errors"></div>
                         </div>
                         <div className="form-group checkbox">
@@ -30,7 +29,7 @@ function Newsletter() {
                     </form>
                    
                     <div className="icon-container">
-                        <span className="fa-stack">
+                        {/* <span className="fa-stack">
                             <a href="#your-link">
                                 <i className="fas fa-circle fa-stack-2x"></i>
                                 <i className="fab fa-facebook-f fa-stack-1x"></i>
@@ -41,23 +40,29 @@ function Newsletter() {
                                 <i className="fas fa-circle fa-stack-2x"></i>
                                 <i className="fab fa-twitter fa-stack-1x"></i>
                             </a>
-                        </span>
-                        <span className="fa-stack">
+                        </span> */}
+                        {/* <span className="fa-stack">
                             <a href="#your-link">
                                 <i className="fas fa-circle fa-stack-2x"></i>
                                 <i className="fab fa-pinterest-p fa-stack-1x"></i>
                             </a>
-                        </span>
+                        </span> */}
                         <span className="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.instagram.com/patriaandco/">
                                 <i className="fas fa-circle fa-stack-2x"></i>
                                 <i className="fab fa-instagram fa-stack-1x"></i>
                             </a>
                         </span>
                         <span className="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://www.linkedin.com/company/strategi-transforma-infiniti/">
                                 <i className="fas fa-circle fa-stack-2x"></i>
                                 <i className="fab fa-linkedin-in fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span className="fa-stack">
+                            <a href="https://rb.gy/68lhof">
+                                <i className="fas fa-circle fa-stack-2x"></i>
+                                <i className="fab fa-youtube fa-stack-1x"></i>
                             </a>
                         </span>
                     </div> 
