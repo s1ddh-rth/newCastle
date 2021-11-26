@@ -1,8 +1,7 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 
-
-function Academics() {
+function Corporate() {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
@@ -10,11 +9,11 @@ function Academics() {
             </nav>
             <header id="header" className="header">
             
-            <h1>Academic Solutions</h1>
+            <h1>Corporate Solutions</h1>
             
             </header>
         </div>
     )
 }
 
-export default Academics
+export default Corporate

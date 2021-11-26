@@ -7,7 +7,7 @@ function Navigation() {
             <nav className="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
 
                 
-                <a className="navbar-brand logo-text page-scroll" href="index.html">Patria & Co.</a>
+                <Link className="navbar-brand logo-text page-scroll" to="/">Patria & Co.</Link>
 
                 
                 {/* <a className="navbar-brand logo-image" href="index.html"><img src="images/logophoto.jpg" alt="alternative" /></a>  */}
