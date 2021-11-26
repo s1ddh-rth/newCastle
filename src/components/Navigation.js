@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
 
 function Navigation() {
     return (
@@ -26,17 +27,17 @@ function Navigation() {
                         <li className="nav-item">
                             <a className="nav-link page-scroll" href="#description">DETAILS</a>
                         </li>
-
-                         
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle page-scroll" href="#date" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">DATE</a>
+                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">SOLUTIONS</a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a className="dropdown-item" href="article-details.html"><span className="item-text">ARTICLE DETAILS</span></a>
+                                <Link className="dropdown-item" to="/academics"><span className="item-text">ACADEMIC SOLUTIONS</span></Link>
                                 <div className="dropdown-divider"></div>
-                                <a className="dropdown-item" href="terms-conditions.html"><span className="item-text">TERMS CONDITIONS</span></a>
-                                <div className="dropdown-divider"></div>
-                                <a className="dropdown-item" href="privacy-policy.html"><span className="item-text">PRIVACY POLICY</span></a>
+                                <Link className="dropdown-item" to="/corporate"><span className="item-text">CORPORATE SOLUTIONS</span></Link>
                             </div>
+                        </li>
+                         
+                        <li className="nav-item">
+                            <a className="nav-link page-scroll" href="#date" role="button" aria-haspopup="true" aria-expanded="false">DATE</a>
                         </li>
                         
 

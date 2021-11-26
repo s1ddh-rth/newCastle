@@ -11,11 +11,14 @@ import Instructor from './Instructor';
 import Description from './Description';
 import Event from './Event';
 import Contact from './Contact';
+import Navigation from './Navigation';
+
 
 
 function Home() {
     return (
         <div>
+        <Navigation />
         <ImageCarousel />
         <Register />
         <Partners />
