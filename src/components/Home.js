@@ -21,7 +21,6 @@ function Home() {
         <Navigation />
         <ImageCarousel />
         <Register />
-        <Partners />
         <Instructor />
         <Description />
         <Students />

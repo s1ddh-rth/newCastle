@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Partners from './Partners';
 
 function Corporate() {
     return (
@@ -12,6 +13,7 @@ function Corporate() {
             <h1>Corporate Solutions</h1>
             
             </header>
+            <Partners />
         </div>
     )
 }

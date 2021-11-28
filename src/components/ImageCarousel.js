@@ -1,4 +1,31 @@
-import React from 'react'
+import React from 'react';
+import Carousel, { autoplayPlugin } from '@brainhubeu/react-carousel';
+import '@brainhubeu/react-carousel/lib/style.css';
+
+
+const imageOne = "images/details-slide-1.jpg";
+const imageTwo = "images/details-slide-2.jpg";
+const imageThree = "images/details-slide-3.jpg";
+
+
+
+const MyHomeCarousel = () => (
+    <Carousel 
+    plugins={[
+     'infinite',
+    {
+      resolve: autoplayPlugin,
+      options: {
+        interval: 2000,
+      }
+    },
+  ]}   
+  animationSpeed={1000}>
+      <img src={imageOne} alt="CorpImage" />
+      <img src={imageTwo} alt="CorpImage" />
+      <img src={imageThree} alt="CorpImage" />
+    </Carousel>
+  );
 
 function ImageCarousel() {
     return (
@@ -21,42 +48,16 @@ function ImageCarousel() {
                         </div> 
                     </div>
                 </div>
-                
-        
+                <br />
                 <div className="outer-container">
                     <div className="slider-container">
                         <div className="swiper-container image-slider-1">
-                            <div className="swiper-wrapper">
-                                
-                        
-                                <div className="swiper-slide" >
-                                    <img className="img-fluid" src="images/details-slide-1.jpg" alt="alternative" />
-                                </div>
-                            
 
-                            
-                                <div className="swiper-slide">
-                                    <img className="img-fluid" src="images/details-slide-2.jpg" alt="alternative" />
-                                </div>
-                            
-
-                            
-                                <div className="swiper-slide">
-                                    <img className="img-fluid" src="images/details-slide-3.jpg" alt="alternative" />
-                                </div>
-                                
-
-                            </div> 
-                            
-                            
-                            <div className="swiper-button-next"></div>
-                            <div className="swiper-button-prev"></div>
-                            
-                            
+                            <MyHomeCarousel />
                         </div>
                     </div>
                 </div>
-                
+               
 
             </header>
 

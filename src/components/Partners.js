@@ -1,4 +1,39 @@
-import React from 'react'
+import React from 'react';
+import Carousel, { autoplayPlugin } from '@brainhubeu/react-carousel';
+import '@brainhubeu/react-carousel/lib/style.css';
+
+
+const imageOne = "images/customer-logo-1.png";
+const imageTwo = "images/customer-logo-2.png";
+const imageThree = "images/customer-logo-3.png";
+const imageFour = "images/customer-logo-4.png";
+const imageFive = "images/customer-logo-5.png";
+const imageSix = "images/customer-logo-6.png";
+
+
+
+const MyPartnerCarousel = () => (
+    <Carousel 
+    plugins={[
+     'infinite',
+    {
+      resolve: autoplayPlugin,
+      options: {
+        interval: 2000,
+      }
+    },
+  ]}   
+  animationSpeed={1000}>
+      <img src={imageOne} alt="CorpImage" />
+      <img src={imageTwo} alt="CorpImage" />
+      <img src={imageThree} alt="CorpImage" />
+      <img src={imageFour} alt="CorpImage" />
+      <img src={imageFive} alt="CorpImage" />
+      <img src={imageSix} alt="CorpImage" />
+
+    </Carousel>
+  );
+
 
 function Partners() {
     return (
@@ -11,28 +46,7 @@ function Partners() {
 
                         
                             <div className="slider-container">
-                                <div className="swiper-container image-slider-2">
-                                    <div className="swiper-wrapper">
-                                        <div className="swiper-slide">
-                                                <img className="img-fluid" src="images/customer-logo-1.png" alt="alternative" />
-                                        </div>
-                                        <div className="swiper-slide">
-                                                <img className="img-fluid" src="images/customer-logo-2.png" alt="alternative" />
-                                        </div>
-                                        <div className="swiper-slide">
-                                                <img className="img-fluid" src="images/customer-logo-3.png" alt="alternative" />
-                                        </div>
-                                        <div className="swiper-slide">
-                                                <img className="img-fluid" src="images/customer-logo-4.png" alt="alternative" />
-                                        </div>
-                                        <div className="swiper-slide">
-                                                <img className="img-fluid" src="images/customer-logo-5.png" alt="alternative" />
-                                        </div>
-                                        <div className="swiper-slide">
-                                                <img className="img-fluid" src="images/customer-logo-6.png" alt="alternative" />
-                                        </div>
-                                    </div> 
-                                </div> 
+                                <MyPartnerCarousel />
                             </div> 
                             
 
