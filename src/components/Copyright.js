@@ -8,7 +8,7 @@ function Copyright() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <p className="p-small">Copyright © 2021 Patria & Co. - All rights reserved</p>
+                            <p className="p-small">Copyright © 2021 <a href="https://the-fountainhead.business.site/?m=true">TheFountainhead</a> - All rights reserved</p>
                         </div> 
                     </div> 
                 </div> 
