@@ -28,7 +28,7 @@ function Navigation() {
                             <a className="nav-link page-scroll" href="#description">DETAILS</a>
                         </li>
                         <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">SOLUTIONS</a>
+                        <a className="nav-link dropdown-toggle" href="#solutions" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">SOLUTIONS</a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <Link className="dropdown-item" to="/academics"><span className="item-text">ACADEMIC SOLUTIONS</span></Link>
                                 <div className="dropdown-divider"></div>

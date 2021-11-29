@@ -5,7 +5,6 @@ import Takeaways from './Takeaways';
 import Testimonials from './Testimonials';
 import Video from './Video';
 import Newsletter from './Newsletter';
-import Partners from './Partners';
 import ImageCarousel from './ImageCarousel';
 import Instructor from './Instructor';
 import Description from './Description';
