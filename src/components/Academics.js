@@ -34,13 +34,8 @@ function Academics() {
             </nav>
             <header id="header" className="header">
             <h1>Academic Solutions</h1>
-            <div className="outer-container">
-                    <div className="slider-container">
-                        <div className="swiper-container image-slider-1">
-                            <MyCarousel />
-                        </div>
-                    </div>
-                </div>
+            
+            <MyCarousel itemWidth={"80%"} />
             </header>
             <br /><br />
             <br />

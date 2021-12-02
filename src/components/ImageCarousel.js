@@ -49,16 +49,9 @@ function ImageCarousel() {
                     </div>
                 </div>
                 <br />
-                <div className="outer-container">
-                    <div className="slider-container">
-                        <div className="swiper-container image-slider-1">
 
-                            <MyHomeCarousel />
-                        </div>
-                    </div>
-                </div>
-               
-
+                <MyHomeCarousel />
+                
             </header>
 
         </div>
