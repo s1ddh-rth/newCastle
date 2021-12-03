@@ -1,30 +1,15 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import Carousel, { autoplayPlugin } from '@brainhubeu/react-carousel';
-import '@brainhubeu/react-carousel/lib/style.css';
+
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
 import Description from './Description';
 
 const imageOne = "images/details-slide-1.jpg";
 const imageTwo = "images/details-slide-2.jpg";
 const imageThree = "images/details-slide-3.jpg";
 
-const MyCarousel = () => (
-    <Carousel 
-    plugins={[
-     'infinite',
-    {
-      resolve: autoplayPlugin,
-      options: {
-        interval: 2000,
-      }
-    },
-  ]}   
-  animationSpeed={1000}>
-      <img src={imageOne} alt="AcadImage" />
-      <img src={imageTwo} alt="AcadImage" />
-      <img src={imageThree} alt="AcadImage" />
-    </Carousel>
-  );
 
 function Academics() {
     return (
@@ -34,11 +19,25 @@ function Academics() {
             </nav>
             <header id="header" className="header">
             <h1>Academic Solutions</h1>
-            
-            <MyCarousel itemWidth={"80%"} />
+            <div className="NewCarousel" style={{width:"80%", margin:"auto"}}>
+            <Carousel autoPlay={true} showStatus={false} infiniteLoop={true} interval={3000} showThumbs={false}>
+                <div>
+                    <img src={imageOne} alt="demoImage" />
+                    {/* <p className="legend">Legend 1</p> */}
+                </div>
+                <div>
+                    <img src={imageTwo} alt="demoImage" />
+                    {/* <p className="legend">Legend 2</p> */}
+                </div>
+                <div>
+                    <img src={imageThree} alt="demoImage" />
+                    {/* <p className="legend">Legend 3</p> */}
+                </div>
+            </Carousel>
+            </div>
             </header>
-            <br /><br />
-            <br />
+            
+            
             <Description />
         </div>
     )
