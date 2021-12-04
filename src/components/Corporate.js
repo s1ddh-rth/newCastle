@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Card from './Card';
 import Partners from './Partners';
 
 function Corporate() {
@@ -13,12 +14,7 @@ function Corporate() {
             <h1>Corporate Solutions</h1>
             
             </header>
-            <div className="flex-container">
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-                <div>4</div>
-            </div>
+            <Card />
             <Partners />
         </div>
     )
