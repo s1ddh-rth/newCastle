@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 function Testimonials() {
     return (
@@ -7,13 +9,11 @@ function Testimonials() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <h3>Check out our attendees testimonials from previous editions of the SEO Training</h3>
+                            <h3>See what our Students/Clients had to say about us</h3>
 
                     
-                            <div className="slider-container">
-                                <div className="swiper-container text-slider">
-                                    <div className="swiper-wrapper">
                                         
+                                        <Carousel autoPlay={true} widht={"120%"} showIndicators={false} showStatus={false} infiniteLoop={true} interval={5000} showThumbs={false}>
                                     
                                         <div className="swiper-slide">
                                             <div className="image-wrapper">
@@ -55,18 +55,11 @@ function Testimonials() {
                                             </div> 
                                         </div> 
                                 
-
+                                    </Carousel>
                                     </div> 
                                     
-                                
-                                    <div className="swiper-button-next"></div>
-                                    <div className="swiper-button-prev"></div>
-                                
 
-                                </div> 
-                            </div> 
-
-                        </div> 
+                               
                     </div> 
                 </div> 
             </div> 

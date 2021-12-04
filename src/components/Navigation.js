@@ -37,7 +37,7 @@ function Navigation() {
                         </li>
                          
                         <li className="nav-item">
-                            <a className="nav-link page-scroll" href="#date" role="button" aria-haspopup="true" aria-expanded="false">DATE</a>
+                            <a className="nav-link page-scroll" href="#event" role="button" aria-haspopup="true" aria-expanded="false">EVENT</a>
                         </li>
                         
 

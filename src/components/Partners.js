@@ -19,7 +19,7 @@ const MyPartnerCarousel = () => (
     {
       resolve: autoplayPlugin,
       options: {
-        interval: 2000,
+        interval: 3000,
       }
     },
   ]}   
