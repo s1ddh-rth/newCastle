@@ -3,9 +3,11 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 
 
-const imageOne = "images/details-slide-1.jpg";
-const imageTwo = "images/details-slide-2.jpg";
-const imageThree = "images/details-slide-3.jpg";
+const imageOne = "images/one.png";
+const imageTwo = "images/two.png";
+const imageThree = "images/three.png";
+const imageFour = "images/four.png";
+const imageFive = "images/five.png";
 
 function ImageCarousel() {
     return (
@@ -44,6 +46,15 @@ function ImageCarousel() {
                 <img src={imageThree} alt="demoImage" />
                 {/* <p className="legend">Legend 3</p> */}
                 </div>
+                <div>
+                <img src={imageFour} alt="demoImage" />
+                {/* <p className="legend">Legend 3</p> */}
+                </div>
+                <div>
+                <img src={imageFive} alt="demoImage" />
+                {/* <p className="legend">Legend 3</p> */}
+                </div>
+                
                 </Carousel>
                 </div>
                 

@@ -13,7 +13,7 @@ function Testimonials() {
 
                     
                                         
-                                        <Carousel autoPlay={true} widht={"120%"} showIndicators={false} showStatus={false} infiniteLoop={true} interval={5000} showThumbs={false}>
+                                        <Carousel autoPlay={true} showIndicators={false} showStatus={false} infiniteLoop={true} interval={5000} showThumbs={false}>
                                     
                                         <div className="swiper-slide">
                                             <div className="image-wrapper">
