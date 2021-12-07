@@ -9,8 +9,8 @@ function Event() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="text-container">
-                                <h2>December 22nd 2020 at Innovation Hub Space</h2>
-                                <p>Our mission is to help people do better SEO. The team is excited to invite you to the next SEO Training Course session which undoubtedly will provide you with the necessary skills to improve your online presence. Fill out the form to register and we'll contact you in less than 24h</p>
+                                <h2>December 22nd 2021</h2>
+                                <p>Our team is excited to announce the next big thing at Patria & Co.. Come join us at the live event and be a part of our world.</p>
                                 <a className="btn-solid-lg page-scroll" href="#register">REGISTER</a>
                             </div> 
                         </div> 

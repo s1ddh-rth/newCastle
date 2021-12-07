@@ -8,7 +8,7 @@ function Students() {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="text-container">
-                                <h2>Who Should Attend The SEO Training Course</h2>
+                                <h2>Who Should Attend The Data Analytics & Machine learning Course</h2>
                                 <p>This course is for anyone passionate about the web and especially fit for those seeking to improve their online presence for company websites and blogs </p>
                                 
                             </div> 

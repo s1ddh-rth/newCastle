@@ -14,7 +14,7 @@ function Contact() {
                                 <ul className="list-unstyled li-space-lg">
                                     <li className="media">
                                         <i className="fas fa-mobile-alt"></i>
-                                        <div className="media-body">+44 68 554 332, &nbsp;&nbsp;<i className="fas fa-mobile-alt"></i>&nbsp; +44 31 276 112</div>
+                                        <div className="media-body">+62-821-3454-1614 (Wita) &nbsp;&nbsp;</div>
                                     </li>
                                     {/* <li className="media">
                                         <i className="fas fa-envelope"></i>

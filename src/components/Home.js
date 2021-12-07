@@ -4,13 +4,14 @@ import Students from './Students';
 import Takeaways from './Takeaways';
 import Testimonials from './Testimonials';
 import Video from './Video';
-import Newsletter from './Newsletter';
+
 import ImageCarousel from './ImageCarousel';
 import Instructor from './Instructor';
 import Description from './Description';
 import Event from './Event';
 import Contact from './Contact';
 import Navigation from './Navigation';
+import About from './About';
 
 
 
@@ -19,14 +20,15 @@ function Home() {
         <div>
         <Navigation />
         <ImageCarousel />
-        <Register />
+        <About />
         <Instructor />
         <Description />
         <Students />
         <Video />
         <Takeaways />
+        <Register />
         <Testimonials />
-        <Newsletter />
+        
         <Event /> 
         <Contact />   
         </div>
