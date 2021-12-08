@@ -6,9 +6,9 @@ import { Carousel } from 'react-responsive-carousel';
 
 import Description from './Description';
 
-const imageOne = "images/details-slide-1.jpg";
-const imageTwo = "images/details-slide-2.jpg";
-const imageThree = "images/details-slide-3.jpg";
+const imageOne = "images/acad.png";
+const imageTwo = "images/acad2.png";
+
 
 
 function Academics() {
@@ -29,10 +29,7 @@ function Academics() {
                     <img src={imageTwo} alt="demoImage" />
                     {/* <p className="legend">Legend 2</p> */}
                 </div>
-                <div>
-                    <img src={imageThree} alt="demoImage" />
-                    {/* <p className="legend">Legend 3</p> */}
-                </div>
+                
             </Carousel>
             </div>
             </header>
