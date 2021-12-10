@@ -1,6 +1,29 @@
-import React from 'react'
+import React from 'react';
+import { useState } from 'react';
+import Axios from 'axios';
 
 function Register() {
+
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [phone, setPhone] = useState('');
+
+    const handleSubmit = (e) => {
+    e.preventDefault();
+    const data = {
+        Name: name,
+        Email: email,
+        Phone: phone
+    };
+    Axios.post('https://sheet.best/api/sheets/58e46e80-13b8-483c-ad87-60ccde374d85',data).then((response)=>{
+        console.log(response);
+        setName('');
+        setPhone('');
+        setEmail('');
+    });
+
+    }
+
     return (
         <div>       
             <div id="register" className="form-1">
@@ -30,17 +53,17 @@ function Register() {
 
                             
                             <div className="form-container">
-                                <form id="registrationForm" data-toggle="validator" data-focus="false">
+                                <form id="registrationForm" data-toggle="validator" data-focus="false" onSubmit={handleSubmit} >
                                     <div className="form-group">
-                                        <input type="text" className="form-control-input" id="rname" name="rname" placeholder="Complete name" required />
+                                        <input type="text" className="form-control-input" id="rname" name="rname" placeholder="Complete name" required onChange={(e)=>{setName(e.target.value)}} value={name} />
                                         <div className="help-block with-errors"></div>
                                     </div>
                                     <div className="form-group">
-                                        <input type="email" className="form-control-input" id="remail" name="remail" required placeholder="Email Address"/>
+                                        <input type="email" className="form-control-input" id="remail" name="remail" required placeholder="Email Address" onChange={(e)=>{setEmail(e.target.value)}} value={email} />
                                         <div className="help-block with-errors"></div>
                                     </div>
                                     <div className="form-group">
-                                        <input type="text" className="form-control-input" id="rphone" name="rphone" placeholder="Phone number" required />
+                                        <input type="text" className="form-control-input" id="rphone" name="rphone" placeholder="Phone number" required onChange={(e)=>{setPhone(e.target.value)}} value={phone} />
                                         <div className="help-block with-errors"></div>
                                     </div>
                                     <div className="form-group checkbox">
