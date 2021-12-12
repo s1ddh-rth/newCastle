@@ -16,49 +16,37 @@ function Description() {
                                 <li className="media">
                                     <i className="bullet">1</i>
                                     <div className="media-body">
-                                        <h4>Optimizing your site for mobile devices</h4>
-                                        <p>One of the keys of great SEO is having a mobile friendly website which works smoothly on all devices</p>
+                                        <h4>Efficient Handling of Data</h4>
+                                        <p>Machine Learning can be multidimensional or different types of data. It can process and analyze these data that normal systems can’t. Data is the most important part of any Machine Learning model. Also, studying and handling of data is a field in itself.</p>
                                     </div>
                                 </li>
                                 <li className="media">
                                     <i className="bullet">2</i>
                                     <div className="media-body">
-                                        <h4>Understand how users search</h4>
-                                        <p>It's not enough anymore to find relevant industry keywords and write huge amounts of content </p>
+                                        <h4>Wide Range of Applications</h4>
+                                        <p>ML has a wide variety of applications. This means that we can apply ML on any of the major fields. ML has its role everywhere from medical, business, banking to science and tech. This helps to create more opportunities. It plays a major role in customer interactions.</p>
                                     </div>
                                 </li>
-                                <li className="media">
-                                    <i className="bullet">3</i>
-                                    <div className="media-body">
-                                        <h4>Write for humans optimize for engines</h4>
-                                        <p>Write well structured and understandable articles not just a mix of paragraphs that contain keywords</p>
-                                    </div>
-                                </li>
+                                
                             </ul>
                         </div> 
                         <div className="col-lg-6">
                             <ul className="list-unstyled li-space-lg second">
                                 <li className="media">
+                                    <i className="bullet">3</i>
+                                    <div className="media-body">
+                                        <h4>Automation of Everything</h4>
+                                        <p>Machine Learning is responsible for cutting the workload and time. By automating things we let the algorithm do the hard work for us. Automation is now being done almost everywhere. The reason is that it is very reliable. Also, it helps us to think more creatively.</p>
+                                    </div>
+                                </li>
+                                <li className="media">
                                     <i className="bullet">4</i>
                                     <div className="media-body">
-                                        <h4>Analyse your existing search traffic</h4>
-                                        <p>A good action plan comes out of understanding where your current position is and the environment</p>
+                                        <h4>Use in E-Commerce and Education</h4>
+                                        <p>Recently in China, a school has started to use ML to improve student focus. In online shopping, the ML model studies your searches. Based on your search history, it would provide advertisements. These will be about your search preferences in previous searches. In this, the search history is the data for the model. This is a great way to improve e-commerce with ML.</p>
                                     </div>
                                 </li>
-                                <li className="media">
-                                    <i className="bullet">5</i>
-                                    <div className="media-body">
-                                        <h4>Keep updated with the latest changes</h4>
-                                        <p>Google changes it's search indexing algorithm twice a year so it's important to stay updated with news</p>
-                                    </div>
-                                </li>
-                                <li className="media">
-                                    <i className="bullet">6</i>
-                                    <div className="media-body">
-                                        <h4>Learn the most important ranking factors</h4>
-                                        <p>Learn which are the most important search engine ranking factors and optimize your website accordnigly</p>
-                                    </div>
-                                </li>
+                                
                             </ul>
                         </div> 
                     </div> 

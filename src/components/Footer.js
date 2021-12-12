@@ -12,25 +12,7 @@ function Footer() {
                                 <p className="p-small">We're passionate about teaching people how to be better at Analytical aspect of Machine Learning and how to make the best use of it.</p>
                             </div>
                         </div>
-                        <div className="col-md-3">
-                            <div className="footer-col third">
-                                <h5>Links</h5>
-                                <ul className="list-unstyled li-space-lg p-small">
-                                    <li className="media">
-                                        <i className="fas fa-square"></i>
-                                        <div className="media-body"><a href="article-details.html">Article Details</a></div>
-                                    </li>
-                                    <li className="media">
-                                        <i className="fas fa-square"></i>
-                                        <div className="media-body"><a href="terms-conditions.html">Terms & Conditions</a></div>
-                                    </li>
-                                    <li className="media">
-                                        <i className="fas fa-square"></i>
-                                        <div className="media-body"><a href="privacy-policy.html">Privacy Policy</a></div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div> 
+                      
                         <div className="col-md-3">
                             <div className="footer-col fourth">
                                 <h5>Social Media</h5>

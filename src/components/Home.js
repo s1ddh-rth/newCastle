@@ -1,10 +1,9 @@
 import React from 'react';
 import Register from './Register';
 import Students from './Students';
-import Takeaways from './Takeaways';
-import Testimonials from './Testimonials';
+// import Takeaways from './Takeaways';
+// import Testimonials from './Testimonials';
 import Video from './Video';
-
 import ImageCarousel from './ImageCarousel';
 import Instructor from './Instructor';
 import Description from './Description';
@@ -25,9 +24,9 @@ function Home() {
         <Description />
         <Students />
         <Video />
-        <Takeaways />
+        {/* <Takeaways /> */}
         <Register />
-        <Testimonials />
+        {/* <Testimonials /> */}
         {/* <Event />  */}
         <Contact />   
         </div>

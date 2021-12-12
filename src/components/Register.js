@@ -69,10 +69,7 @@ function Register() {
                                         <input type="text" className="form-control-input" id="rphone" name="rphone" placeholder="Phone number" required onChange={(e)=>{setPhone(e.target.value)}} value={phone} />
                                         <div className="help-block with-errors"></div>
                                     </div>
-                                    <div className="form-group checkbox">
-                                        <input type="checkbox" id="rterms" value="Agreed-to-Terms" name="rterms" required />I've read and agree to Corso's written <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms & Conditions</a>
-                                        <div className="help-block with-errors"></div>
-                                    </div>
+                                    
                                     <div className="form-group">
                                         <button type="submit" className="form-control-submit-button">REGISTER</button>
                                     </div>

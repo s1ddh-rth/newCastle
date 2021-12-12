@@ -42,10 +42,7 @@ function Contact() {
                                     <label className="label-control" htmlFor="cmessage">Your message</label>
                                     <div className="help-block with-errors"></div>
                                 </div>
-                                <div className="form-group checkbox">
-                                    <input type="checkbox" id="cterms" value="Agreed-to-Terms" required />I have read and agree to Corso's stated <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a> 
-                                    <div className="help-block with-errors"></div>
-                                </div>
+                                
                                 <div className="form-group">
                                     <button type="submit" className="form-control-submit-button">SUBMIT</button>
                                 </div>

@@ -1,9 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-
 import Description from './Description';
 
 const imageOne = "images/acad.png";
@@ -33,9 +31,49 @@ function Academics() {
             </Carousel>
             </div>
             </header>
-            
-            
             <Description />
+            <div className="slider-2">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <h3>This is what our Students think of us</h3>
+
+                    
+                                        
+                                        <Carousel autoPlay={true} showIndicators={false} showStatus={false} infiniteLoop={true} interval={5000} showThumbs={false}>
+                                    
+                                
+                                        <div className="swiper-slide">
+                                            <div className="image-wrapper">
+                                                <img className="img-fluid" src="images/corporate/nurul.gif" alt="alternative" />
+                                            </div> 
+                                            <div className="text-wrapper">
+                                                <div className="testimonial-text">Mas Harry is a mentor on our private Tableau Workshop Support Group. He has a broad knowledge about Integrated Tableau and R programming for advanced analytics and he gives us a lot of lessons and homework to do, so that we can built our own dashboard. Our first 5-hours workshop (from overall 32 hours learning hour) includes all the basic things about Tableu and we had a chance to build our simple new dashboard.</div>
+                                                <div className="testimonial-author"><a href="https://www.linkedin.com/in/auliya/">Nurul Auliya</a></div>
+                                            </div> 
+                                        </div> 
+                                
+
+                                
+                                        <div className="swiper-slide">
+                                            <div className="image-wrapper">
+                                                <img className="img-fluid" src="images/students/azhari.jfif" alt="alternative" />
+                                            </div> 
+                                            <div className="text-wrapper">
+                                                <div className="testimonial-text">I have known Harry since we were in high school and we also have a seatmate. Harry is a very determined person, full of enthusiasm, persistent in achieving his goals and many other positive things. So it is not surprising if he can reach the current position. Apart from all that, Harry Patria is an asset for this nation</div>
+                                                <div className="testimonial-author"><a href="https://www.linkedin.com/in/maulana-azhari-lubis-89a08069/">Maulana Azhari Lubis</a></div>
+                                            </div> 
+                                        </div> 
+                                
+                                    </Carousel>
+                                    </div> 
+                                    
+
+                               
+                    </div> 
+                </div> 
+            </div> 
+
         </div>
     )
 }
