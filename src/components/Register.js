@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Axios from 'axios';
 
 function Register() {
-
+    // const [register, setRegister] = useState(false);
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
@@ -15,12 +15,15 @@ function Register() {
         Email: email,
         Phone: phone
     };
-    Axios.post('https://sheet.best/api/sheets/58e46e80-13b8-483c-ad87-60ccde374d85',data).then((response)=>{
-        console.log(response);
-        setName('');
-        setPhone('');
-        setEmail('');
+    if(data.Name !=='' && data.Email !=='' && data.Phone !==''){
+        Axios.post('https://sheet.best/api/sheets/58e46e80-13b8-483c-ad87-60ccde374d85',data).then((response)=>{
+            setName('');
+            setPhone('');
+            setEmail('');
+            // setRegister(true);
     });
+    };
+    
 
     }
 

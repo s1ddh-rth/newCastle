@@ -12,12 +12,14 @@ function Video() {
                         
                             <div className="image-container">
                                 <div className="video-wrapper">
-                                    <a className="popup-youtube" href="https://www.youtube.com/watch?v=iBj9PWk1noA&t=22s" data-effect="fadeIn">
+                                <iframe title="youtubeVideo" width="100%" height="500" src="https://www.youtube.com/embed/iBj9PWk1noA">
+                                </iframe>
+                                    {/* <a className="popup-youtube" href="https://www.youtube.com/watch?v=iBj9PWk1noA&t=22s" data-effect="fadeIn">
                                         <img className="img-fluid" src="images/video.jpg" alt="alternative" />
                                         <span className="video-play-button">
                                             <span></span>
                                         </span>
-                                    </a>
+                                    </a> */}
                                 </div> 
                             </div> 
                         

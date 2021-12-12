@@ -39,10 +39,10 @@ function Navigation() {
                             </div>
                         </li>
                          
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link page-scroll" href="#event" role="button" aria-haspopup="true" aria-expanded="false">EVENT</a>
                         </li>
-                        
+                         */}
 
                         <li className="nav-item">
                             <a className="nav-link page-scroll" href="#contact">CONTACT</a>

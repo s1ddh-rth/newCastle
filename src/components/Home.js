@@ -8,7 +8,7 @@ import Video from './Video';
 import ImageCarousel from './ImageCarousel';
 import Instructor from './Instructor';
 import Description from './Description';
-import Event from './Event';
+// import Event from './Event';
 import Contact from './Contact';
 import Navigation from './Navigation';
 import About from './About';
@@ -28,8 +28,7 @@ function Home() {
         <Takeaways />
         <Register />
         <Testimonials />
-        
-        <Event /> 
+        {/* <Event />  */}
         <Contact />   
         </div>
     )
