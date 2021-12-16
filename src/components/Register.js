@@ -24,7 +24,7 @@ function Register() {
         Company: company
     };
     if(data.FirstName !=='' && data.LasttName !=='' && data.Email !=='' && data.Phone !==''){
-        Axios.post('https://sheet.best/api/sheets/58e46e80-13b8-483c-ad87-60ccde374d85',data).then((response)=>{
+        Axios.post('https://sheet.best/api/sheets/2846a2ee-28a6-4148-9589-c222b98bf306',data).then((response)=>{
             console.log(response.status);
             setFname('');
             setMname('');

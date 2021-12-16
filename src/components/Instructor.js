@@ -17,7 +17,7 @@ function Instructor() {
                         </div> 
                         <div className="col-lg-6">
                             <div className="text-container">
-                                <h2>I am Harry Your Trainer</h2>
+                                <h2>I am Harry Patria</h2>
                                 <p>Hi everybody! I am Harry Patria, CEO & Chief Data Strategist at Patria & Co. I have more than 10 years experience in Data Science and I am very passionate about this field. Register for the course and let's meet.</p>
                                 <p></p>
                             </div> 
@@ -30,7 +30,7 @@ function Instructor() {
                         </div> 
                         <div className="col-lg-6">
                             <div className="text-container">
-                                <h2>I am Mohib Raza, Data Scientist at Patria and Co</h2>
+                                <h2>I am Syed Mohib Raza</h2>
                                 <p>Hi everybody! I am Syed Mohib Raza. I look forward for an experience that is both intellectually and professionally valuable and hope to see myself grow as a professional and as an individual working in an innovative and competitive world. I wish to contribute to the organization & to the world.</p>
                                 <p></p>
                             </div> 
@@ -57,7 +57,20 @@ function Instructor() {
                         <div className="col-lg-6">
                             <div className="text-container">
                                 <h2>I am Dr. Christy Dwita Mariana</h2>
-                                <p>Hi everybody!  Dr. Christy Dwita Mariana. Experienced Faculty Lecturer with a demonstrated history of working in the education management industry. Skilled in Portfolio Management, Negotiation, Enterprise Risk Management, Corporate Finance, and Company Valuation. Strong digital finance professional with a Doctoral Degree focused in Banking and Finance Management from Universitas Indonesia.</p>
+                                <p>Hi everybody! I am Dr. Christy Dwita Mariana. Experienced Faculty Lecturer with a demonstrated history of working in the education management industry. Skilled in Portfolio Management, Negotiation, Enterprise Risk Management, Corporate Finance, and Company Valuation. Strong digital finance professional with a Doctoral Degree focused in Banking and Finance Management from Universitas Indonesia.</p>
+                                <p></p>
+                            </div> 
+                        </div> 
+                    </div> 
+
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <img className="img-fluid" src="images/djuwita.jfif" alt="alternative" />
+                        </div> 
+                        <div className="col-lg-6">
+                            <div className="text-container">
+                                <h2>I am Djuwita Andalistia</h2>
+                                <p>Hi everybody! I am Djuwita Andalistia. Experienced Marketing Manager and Data Analyst</p>
                                 <p></p>
                             </div> 
                         </div> 
