@@ -9,6 +9,7 @@ import {
 import Home from './components/Home';
 import Academics from './components/Academics';
 import Corporate from './components/Corporate';
+// import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
