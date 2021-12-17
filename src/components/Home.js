@@ -23,7 +23,7 @@ function Home() {
         <Instructor />
         <Description />
         <Students />
-        <Video />
+        <Video title="Course Video Presentation" src="https://www.youtube.com/embed/iBj9PWk1noA" />
         {/* <Takeaways /> */}
         <Register />
         {/* <Testimonials /> */}

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import Description from "./Description";
+import Video from "./Video";
 
 const imageOne = "images/acad.png";
 const imageTwo = "images/acad2.png";
@@ -37,6 +38,27 @@ function Academics() {
         </div>
       </header>
       <Description />
+      <div className="basic-4">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <h2>Have a look at some of our course works</h2>
+              <div class="embed-container jhu">
+                <iframe
+                  frameborder="0"
+                  scrolling="no"
+                  margin=""
+                  width="100%"
+                  height="600"
+                  title="2019-nCoV"
+                  src="https://public.tableau.com/views/Batch16Session1/SalesOptimizationDashboard?:showVizHome=no&:embed=true:language=en-US&:display_count=n&:origin=viz_share_link"
+                ></iframe>{" "}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Video title="Sneak peak to one of our workshops" src="https://www.youtube.com/embed/P1_KTOulLrE" />
       <div className="slider-2">
         <div className="container">
           <div className="row">
@@ -107,17 +129,7 @@ function Academics() {
           </div>
         </div>
       </div>
-      <div className="basic-4">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <h2>Have a look at some of our course works</h2>
-                            <div class="embed-container jhu"><iframe frameborder="0" scrolling="no" margin="" width="100%" height="600" title="2019-nCoV" src="https://public.tableau.com/views/Batch16Session1/SalesOptimizationDashboard?:showVizHome=no&:embed=true:language=en-US&:display_count=n&:origin=viz_share_link"></iframe> </div> 
-
-                        </div> 
-                    </div>
-                </div> 
-            </div> 
+      
     </div>
   );
 }
