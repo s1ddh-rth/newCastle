@@ -97,6 +97,7 @@ function Academics() {
                         Nurul Auliya
                       </a>
                     </div>
+                    Unit Head of Risk Management at Elnusa Petrofin
                   </div>
                 </div>
 
@@ -122,6 +123,7 @@ function Academics() {
                         Maulana Azhari Lubis
                       </a>
                     </div>
+                    Product Application Specialist di bioMérieux
                   </div>
                 </div>
               </Carousel>

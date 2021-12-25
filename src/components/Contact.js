@@ -16,10 +16,10 @@ function Contact() {
                                         <i className="fas fa-mobile-alt"></i>
                                         <div className="media-body">+62-821-3454-1614 (Wita) &nbsp;&nbsp;</div>
                                     </li>
-                                    {/* <li className="media">
+                                    <li className="media">
                                         <i className="fas fa-envelope"></i>
-                                        <div className="media-body"><a className="light-gray" href="mailto:contact@zigo.com">contact@zigo.com</a> <i className="fas fa-globe"></i><a className="light-gray" href="#your-link">www.zigo.com</a></div>
-                                    </li> */}
+                                        <div className="media-body"><a className="light-gray" href="mailto:djuwita@strategitransforma.com">Write us an e-mail!</a></div>
+                                    </li>
                                 </ul>
                             </div> 
                         </div> 
